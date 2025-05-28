@@ -30,7 +30,7 @@ async def forward_media_messages(session_file):
     target = None
 
     for dialog in dialogs:
-        if dialog.name == 'New':  # <-- откуда пересылать
+        if dialog.name == 'New ':  # <-- откуда пересылать
             source = dialog.entity
         if dialog.name == 'Reserve':  # <-- куда пересылать
             target = dialog.entity
