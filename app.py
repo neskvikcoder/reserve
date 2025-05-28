@@ -6,8 +6,8 @@ from telethon import TelegramClient, errors
 from telethon.tl.types import MessageMediaPhoto, MessageMediaDocument
 
 # Укажи свои значения здесь
-api_id = 25789439  # <-- ВСТАВЬ СВОЙ API ID
-api_hash = 'f414f3cb31f0c794a6b9fc8c318dcf9f'  # <-- ВСТАВЬ СВОЙ API HASH
+api_id = 28969912  # <-- ВСТАВЬ СВОЙ API ID
+api_hash = '69e174b8c3b90bc6885ee41bb803dd19'  # <-- ВСТАВЬ СВОЙ API HASH
 
 SESSIONS_DIR = 'Sessions'
 LAST_MSG_FILE = 'last_message.json'
